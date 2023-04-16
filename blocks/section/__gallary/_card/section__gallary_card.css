@@ -4,10 +4,29 @@
     justify-content: space-between;
     margin: 12px 0 0 0;
     width: calc(33.3333333333% - 10px);
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f6f6f6;
-    padding:8px 8px 8px 8px
+    padding:8px 8px 8px 8px;
+    position:relative
    }
+
+   .section__gallary_card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*background: #2A2C2F;
+    opacity: 0.1; */
+    border-radius: 10px;
+
+    }
+    .section__gallary_card:hover::before{
+    opacity: 0.8;
+    cursor: pointer;
+    } 
+
 
    @media screen and (max-width: 992px){
     .section__gallary_card{

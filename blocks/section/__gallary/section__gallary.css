@@ -4,7 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-   }
+    position: relative; 
+  }
 
  /*  @media screen and (min-width: 768px){
     .section__gallary{
