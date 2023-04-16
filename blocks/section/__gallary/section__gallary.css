@@ -1,0 +1,15 @@
+.section__gallary{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+
+ /*  @media screen and (min-width: 768px){
+    .section__gallary{
+        flex-direction: row;
+    }
+   }
+*/
+   

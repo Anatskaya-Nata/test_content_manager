@@ -1,0 +1,26 @@
+.section__gallary_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px 0 0 0;
+    width: calc(33.3333333333% - 10px);
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    padding:8px 8px 8px 8px
+   }
+
+   @media screen and (max-width: 992px){
+    .section__gallary_card{
+        margin: 15px 0 0 0;
+        width: calc(50% - 10px);
+    }
+  
+  }
+
+  @media screen and (max-width:320px){
+    .section__gallary_card{
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+  
+  }
