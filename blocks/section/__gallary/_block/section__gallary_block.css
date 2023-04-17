@@ -1,0 +1,6 @@
+.section__gallary_block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}

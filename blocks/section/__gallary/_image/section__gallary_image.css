@@ -1,6 +1,9 @@
 .section__gallary_image{
     width: 100%;
+    height: auto;
+
     margin: 20px 0 0 0;
     border-radius: 10px;
-    height: 150px;
+
+
   }

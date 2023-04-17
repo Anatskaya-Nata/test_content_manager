@@ -28,6 +28,7 @@
     } 
 
 
+
    @media screen and (max-width: 992px){
     .section__gallary_card{
         margin: 15px 0 0 0;
@@ -36,7 +37,7 @@
   
   }
 
-  @media screen and (max-width:320px){
+  @media screen and (max-width:576px){
     .section__gallary_card{
         margin: 15px 0 0 0;
         width: 100%;
